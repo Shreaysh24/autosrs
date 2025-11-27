@@ -205,6 +205,7 @@ function Generate() {
             selectedStorage={selectedStorage}
             selectedEnvironment={selectedEnvironment}
             selectedLanguage={selectedLanguage}
+            uploadedFiles={uploadedFiles}
             busy={busy}
             handlePrev={handlePrev}
             handleNext={handleNext}
@@ -230,6 +231,7 @@ function Generate() {
           selectedStorage={selectedStorage}
           selectedEnvironment={selectedEnvironment}
           selectedLanguage={selectedLanguage}
+          uploadedFiles={uploadedFiles}
           busy={busy}
           handlePrev={handlePrev}
           handleNext={handleNext}
@@ -262,6 +264,7 @@ function Generate() {
           selectedStorage={selectedStorage}
           selectedEnvironment={selectedEnvironment}
           selectedLanguage={selectedLanguage}
+          uploadedFiles={uploadedFiles}
           busy={busy}
           handlePrev={handlePrev}
           handleNext={handleNext}
